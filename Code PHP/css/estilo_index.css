@@ -1,0 +1,104 @@
+/*slider prueba*/
+    /*separacion de slider para que no este pegado al header y background*/
+    .slider{
+        padding: 15px 0px 0px 0px;
+        background-color: rgb(182, 182, 182);
+        padding-left: 30%;
+    }
+    .contenedor{
+        margin: 0px;
+        width: 100%;
+        padding-bottom: 3px;
+        /*max-width: 900px;
+        max-height: 500px;
+        position: relative;
+        overflow: hidden;*/
+        /*box-shadow: 0 0 0 10px #fff, 0 15px 50px;*/
+    }
+
+    .bx-wrapper{
+        width: 800px;
+}
+
+    .bxslider{
+            /* display: flex;*/
+            width: 100%;
+            height: fit-content;
+            position: relative;
+            
+        }
+
+    .bxslider section{
+        width: 100%;
+    }
+
+    .bxslider img{
+        display: block;
+        
+        width: 90%;
+        height: 90%;
+    }
+
+    /* Slider botones*/
+    .bx-pager{
+        width: 150px;
+        display: flex;
+        position: relative;
+        left: 25%;
+        margin-top: 5px;
+        margin-bottom: 3%;
+    }
+    .bx-pager-item{
+        margin-left: 40px;
+        width: 20px;
+        height: 20px;
+        background-color: black;
+        border-radius: 100%; 
+    }
+    .bx-pager-item a{
+        position: relative;
+        left: 0px;
+        color: black;
+        width: 15px;
+        height: 10px;
+    }
+
+    .bx-controls-direction{
+        display: none;
+    }
+
+    
+    /* paginas relacionadas */
+
+    .Titulo{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 16px;
+        margin: 2%;
+    }
+
+    .ART{
+        text-align: center;
+        display: inline-block;
+        margin: auto;
+    }
+
+    .columnas img{
+        width: 200px;
+        height: 200px;
+        border-radius: 10%;
+        /*border: 1px solid rgb(80, 80, 80);*/
+    }
+    .columnas img:hover{
+        background-color: gray
+    }
+
+    .columnas{
+        text-align: center;
+        width: auto;
+        padding: 20px;
+
+    }
+
+    #facebook{
+        margin: 0 15%;
+    }

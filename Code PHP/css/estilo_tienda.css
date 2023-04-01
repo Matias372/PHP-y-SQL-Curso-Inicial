@@ -1,0 +1,94 @@
+ @font-face {
+    font-family: 'Acme';
+    src: url('../Fonts/Acme-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+ @font-face {
+    font-family: 'Start2P';
+    src: url('../Fonts/PressStart2P-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+.productos{
+    margin-left: 20px;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+    padding-left: 2%;
+    background-color: cornflowerblue;
+    margin-right: 1680px;
+    border-radius: 2%;
+}
+
+.productos h2{
+    position: relative;
+    left: -15px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    text-decoration: dashed;
+    font-family: 'Start2P';
+    font-size: 20px;
+}
+
+.productos h3{
+    text-decoration:underline;
+}
+
+.productos li{
+    margin-top: 15px;
+}
+
+.productos li a{
+    padding: 2px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.productos li a:hover{
+    background-color: gray;
+    border-radius: 20%;
+}
+
+.producto_descripcion{
+    position: fixed;
+    left: 500px;
+    top: 100px;
+    background-color: rgba(43, 177, 255, 0.726);
+    padding: 1%;
+    border-radius: 1%;
+    border-color: gray;
+    width: 1000px;
+}
+
+.producto_descripcion h2{
+    color: rgb(255, 0, 0);
+    font-family:'Acme';
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.producto_descripcion img{
+    width: 500px;
+    height: 500px;
+    margin: 20px;
+}
+
+.producto_descripcion p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 1%;
+}
+
+.producto_descripcion h4{
+    position: relative;
+    left: 500px;
+    top: -150px;
+    color: rgba(255, 0, 0, 0.781);
+    font-family: 'Start2P';
+    font-weight: bolder;
+    font-size: 30px;
+}

@@ -1,0 +1,25 @@
+
+section {
+    margin-top: 20px;
+    background-color: rgba(145,145,145,0.6);
+    font-family: cursive;
+    padding: 30px;
+}
+
+.contenido{
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: white;
+}
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 10%;
+    
+}
+
+/*-NO ME TOMA LOS ESTILOS, SE LLAMO DE VARIAS FORMAS PERO NINGUNA CAMBIA EL SECTION O ARTICLE-*/
+/*..............en la pagina si toma los estilos..ahi estoy modificando ya que sino tenia 4 colores diferentes de fondo y tamaños de letras

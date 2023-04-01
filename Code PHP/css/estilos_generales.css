@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(../img/background.jpg);
+    background-repeat: repeat;
+}
+
+header{
+    background-color:rgb(5, 5, 5);
+    width: 100%;
+    padding-bottom: 19px;
+}
+
+.botonera_principal{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+}
+
+.botonera_principal ul{
+    display:inline-flex;
+    text-align: center;
+    justify-content:center;
+    margin-top: 10px;
+    
+}
+
+.botonera_principal li{
+    margin-left: 20px;
+}
+
+.botonera_principal li a{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;  
+    text-align: center;
+}
+
+
+
+.botonera_principal li a:hover{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/*/    /*/
